@@ -1,0 +1,292 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+
+}
+header{
+    
+    background-color: #562EFF;
+}
+.header{
+   
+    
+    padding: 0px 100px;    
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    color: rgb(247, 244, 245);
+}
+
+.header h1{
+    padding-left: 150px;
+    padding-top: px;
+    
+    
+}
+.header h1 span{
+    font-size: 31px;
+}
+
+.header ul li{
+    list-style: none;
+    margin: 10px;
+    margin-top:3px;
+    transition: 0.5s;
+    
+}
+
+header ul{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    margin-top: 35px;
+    text-align: center;
+    padding-right: 90px;
+    
+    
+    
+}
+header ul li:hover{
+    background-color: rgb(26, 17, 1);
+    /* width: 20px; */
+    border-radius: 10px;
+    
+
+    
+
+    
+}
+main{
+    width:65% ;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 45px;
+    padding: 20px;
+    padding-top: ;
+
+    
+    
+}
+
+.title-main{
+    
+    
+    font-size: 10px;
+    
+    padding-left: 30px;
+    color: blue;
+    /* padding-top: 0px; */
+}
+.images-main{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 20px;
+    padding: 0 auto;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.images{
+    display: grid;
+     grid-template-columns:repeat(3,4fr);
+     /* grid-gap: 2px; */
+    
+    
+
+}
+.images img{
+    width: 64px;
+    margin-left: px;
+    
+    
+    border-radius: 50%;
+}
+.images h3{
+   padding-right: 4px;
+   padding-top: 13px;
+   
+   
+    font-size: 11px;
+
+}
+.blog-images{
+    /* width: 100px; */
+}
+.blog-images img{
+    width: 165px;
+    margin-left: 25px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+.blog-item{
+    display: flex;
+    width:400px ;
+    
+}
+.blog-image-details{
+    margin-left:17px;
+    font-size: 18px;
+    margin-top: 25px;
+
+   
+}
+.blog-image-details span{
+    color: #9F9F9F;
+    
+}
+.blog-image-details a{
+    color: blue;
+    text-decoration: none;
+    
+}
+.top-blog{
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2,6fr);
+    
+    
+}
+/* Leatest Course Css start */
+
+.second-section{
+   margin-top: -5px;
+   margin-bottom: 100px;
+   m
+ 
+}
+.course-image img{
+width: 200px;
+border-radius: 17px;
+
+}
+
+h4{
+    margin: 0;
+    font-size: 14px;
+}
+.course-image-cus a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#ED6B4F;
+    
+}
+p{
+    margin: 0;
+}
+.rating{
+    color: #FFC014;
+    font-size: 9px;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+.rating span{
+    color: #A2A2A2;
+    font-size: 11px;
+}
+.cou-img-rating{
+    display: flex;
+    
+    
+}
+
+.duration-time p{
+    margin-top: 19px;
+}
+
+.dure-time{
+    
+    margin-left: 10px;
+    margin-top: -18px;
+
+    
+   
+}
+
+.duration-time{
+    display: flex;
+    font-size: 16px;
+    
+    
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    border-bottom: -10;
+    margin-top: 10px;
+    
+    padding: 2px 10px;
+   color: #FF4A60;
+}
+
+.Course-item{
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 10px;
+    border-radius: 
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8
+    margin-left: 25px;
+    padding: 10px;
+}
+.course-image{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    
+    padding: 20px 15px 20px 33px;
+    
+}
+
+@media screen and (max-width:600px) {
+*{
+   
+}
+
+    .header{
+        display: block;
+        background-color: #3409f4;
+
+        
+        
+    }
+    h1{
+        margin: 0;
+    }
+    main{
+        width:75% ;
+
+    }
+    .images-main{
+        display: grid;
+        grid-template-columns: repeat(2,6fr);
+        grid-gap: 20px;
+    }
+    .top-blog{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+        
+        
+    }
+    .Course-item{
+        width: 300px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1,12fr);
+    }
+    .header h1{
+        padding-left: 120px;
+        
+        
+        
+    }
+    .header ul{
+
+        margin-top: 25px;
+
+        
+        
+        
+    }
+   
+}
